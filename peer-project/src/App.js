@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Chart from "react-google-charts";
+import Information from './components/Information/Information.js';
 
 const pieOptions = {
   title: "This is the title",
@@ -47,6 +48,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <Information />
         <h1 style={{textAlign: 'center'}}>stuff</h1>
         <Chart
           chartType="PieChart"
@@ -61,5 +63,4 @@ class App extends React.Component {
     );
   }
 }
-
-export default App
+export default App;
