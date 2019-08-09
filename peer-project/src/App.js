@@ -4,6 +4,7 @@ import Chart from "react-google-charts";
 
 const pieOptions = {
   title: "This is the title",
+  
   pieHole: .5,
   slices: [
     {
